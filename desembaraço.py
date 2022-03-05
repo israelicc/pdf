@@ -1,6 +1,8 @@
+file = r"C:\Users\Adm\Desktop\Desembaraço_Aduaneiro.pdf"
+
 def displayPDF(file):
     # Opening file from file path
-    with open(r"C:\Users\Adm\Desktop\Desembaraço_Aduaneiro.pdf", "rb") as f:
+    with open(file, "rb") as f:
         base64_pdf = base64.b64encode(f.read()).decode('utf-8')
 
     # Embedding PDF in HTML
