@@ -1,3 +1,6 @@
+import streamlit as st
+import base64
+
 file = r"C:\Users\Adm\Desktop\Desembaraço_Aduaneiro.pdf"
 
 def displayPDF(file):
